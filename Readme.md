@@ -24,7 +24,7 @@ If you have not used the QuickBooks Payments API before, please go to our docs a
 You can install the package via [Composer](http://getcomposer.org/). Run the following command:
 
 ```php
-composer require quickbooks/payments-sdk
+composer require studio98/qb-payments-sdk
 ```
 
 If you encounter a problem during composer installation, try to update composer first:
@@ -35,7 +35,7 @@ composer update
 and see if specifying a version resolves the issue, example:
 
 ```php
-composer require quickbooks/payments-sdk 1.0.5
+composer require studio98/qb-payments-sdk 1.0.5
 ```
 
 To use the package, use Composer's [autoload](https://getcomposer.org/doc/01-basic-usage.md#autoloading):
@@ -46,7 +46,7 @@ require "vendor/autoload.php";
 
 ## Manual Installation
 
-If you do not wish to use Composer, you can download the [latest release](https://github.com/intuit/PHP-Payments-SDK/releases). Then, to use the package, include the `config.php` file.
+If you do not wish to use Composer, you can download the [latest release](https://github.com/studio98/qb-payments-sdk/releases). Then, to use the package, include the `config.php` file.
 
 ```php
 require_once('/path/to/config.php');
